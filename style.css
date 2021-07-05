@@ -98,9 +98,15 @@ p {
     border-radius: 20px;
 }
 
+.contact-us img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
 
-
-
+footer{
+    text-align: center;
+}
 
 
 
