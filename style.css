@@ -4,6 +4,7 @@ body{
 }
 section{
      display: flex;
+     margin-bottom: 100px;
 }
 #top-banner {
     justify-content: center;
@@ -36,8 +37,23 @@ a.button-color{text-decoration: none;
 p {
     margin-bottom: 30px;
 }
+#about-me {
+    background-image: url(imgs/img2.jpg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 50px;
+        background-size: cover;
+}
+#about-me img{
+    width: 60%;
+}
+.half-width.aboutme-section {
+    padding-top: 100px;
+}
 
-
+.aboutme-section h2 {
+    font-size: 32px;
+}
 
 
 
