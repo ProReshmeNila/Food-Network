@@ -91,7 +91,23 @@ p {
 .pd{
     padding-left: 7%;
 }
-
+section#menu {
+    background-color: #ebf8ff;
+    text-align: center;
+    padding: 50px 20px;
+}
+section#menu li {
+    list-style-type: disclosure-closed;
+}
+section#menu ul {
+    background: #95d7fd21;
+    padding: 51px 69px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px;
+    border-left: 7px solid;
+    border-image: linear-gradient(190deg,#058df7, #14bafc);
+    border-image-slice: 1;
+}
 .count {
     box-shadow: 10px 10px 40px #ddd;
     margin: 0 37px;
@@ -103,9 +119,15 @@ p {
     height: 100px;
     border-radius: 100%;
 }
-
-footer{
+.contact-us h3 {
+    color: #058df7;
+}
+footer {
+    background-color: #0B0D17;
     text-align: center;
+    margin: 0;
+    padding: 20px 10px;
+    color: #fff;
 }
 
 
