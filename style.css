@@ -113,7 +113,9 @@ section#menu ul {
     margin: 0 37px;
     border-radius: 20px;
 }
-
+.contact{
+    text-align: center;
+}
 .contact-us img{
     width: 100px;
     height: 100px;
